@@ -6,4 +6,4 @@ mongoose.set("strictQuery", true);
 mongoose
 	.connect(MONGO_URI)
 	.then(() => console.log(`DB is connected`))
-	.catch((err) => console.log(`DB Connection Failed-- ${err}`))
+	.catch((err) => console.log(`DB Connection Failed -- ${err}`))
